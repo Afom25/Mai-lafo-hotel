@@ -23,9 +23,28 @@ p {
     overflow:auto;
     padding:0 20px;
 }
+.text-primary {
+    color:#e2d3c0d3;
+}
+.lead {
+    font-size:18px;
+}
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color:#fff;
+    background: rgb(131, 121, 121);
+    padding:13px 20px;
+    border:none;
+    cursor:pointer;
+}
+.btn:hover{
+    background: #a8965c;
+    color:black
+}
 /*navbar */
 #navbar {
-    background: black;
+    background: rgb(80, 77, 77);
     color:#fff;
     overflow:auto;
 }
@@ -55,4 +74,25 @@ p {
     color:lightblue;
 }
 
+/*about */
+#about{
+    background:url(../image/hotel4.jpeg) no-repeat 
+    center center/cover;
+    height: 600px;
+}
+#about .about-content {
+    color:wheat;
+    text-align: center;
+    padding-top:170px;
+}
+#about .about-content h1 {
+    font-size: 55px;
+    line-height: 1.3em;
+}
+#about .about-content p{
+    font-size: 25px;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+    color:white;
+}
 
