@@ -5,7 +5,7 @@ body{
     color:#212226;
 }
 h1,
-h2,
+h2,<link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
 h3,
 h4,
 h5,
@@ -82,6 +82,10 @@ section{
     display:table-cell;
     vertical-align: middle;
 }
+#home-head {
+    color:white;
+    font-family: 'Comic Neue', cursive;
+}
 #home-heading h1{
     color:gold;
     font-size: 65px;
@@ -89,7 +93,8 @@ section{
     text-transform: capitalize;
     margin: 0;
     display:inline-block;
-    font-family: 'Black Ops One', cursive;
+    /* font-family: 'Black Ops One', cursive; */
+    font-family: 'Acme', sans-serif;
 }
 #home-heading h1 span{
     color:gray;
@@ -102,8 +107,8 @@ section{
     font-size: 20px;
     font-weight: 200;
     margin:8px 0 30px 0;
-    
-    font-family: 'Arvo', serif;
+    font-family: 'Shadows Into Light', cursive;
+    /* font-family: 'Do Hyeon', sans-serif; */
 }
 .btn-general{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -221,7 +226,7 @@ left:-63px;
     text-align: center;
 }
 .about-item hr {
-    background-color:#5F5B6B;
+    background-color:wheat;
     width: 50px;
     height:4px;
     margin: 0 auto;
@@ -647,12 +652,6 @@ footer p span {
     border-radius: 50%;
     width:100px;
 }
-
-
-
-
-
-
 
 /* google map css*/
 #map{
